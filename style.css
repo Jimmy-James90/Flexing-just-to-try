@@ -1,0 +1,59 @@
+body {
+   
+}
+.head{
+    text-align: center;
+    font-size: 50px;
+    border: 1px solid green;
+}
+.element{
+    display: flex;
+    justify-content:space-around;
+    margin: 0px;
+    padding: 0px;
+    border: 1px solid green;
+}
+p{
+    border: 1px solid red;
+    font-size: 20px;
+    flex:1,1,0;
+    height: 50px;
+    width: 250px;
+    text-align: center;
+}
+.conteiner2{
+    border: 1px solid purple;
+    display: flex;
+    justify-content: center;
+    margin: 0px;
+    padding: 0px;
+}
+.element1{
+    flex:3,1,0;
+    align-items: baseline;
+    margin-left: 50px;
+    border: 1px solid blue;
+    width: 1000px;
+    height: 700px;
+    text-align: justify;
+    font-size: 20px;
+    padding: 20px;
+}
+.element2{
+    flex:1,1,0;
+    align-items: baseline;
+    margin-right: 50px;
+    border: 1px solid blue;;
+    width: 300px;
+    height: 740px;
+}
+.chose1{
+    display: flex;
+    border: 1px solid pink;
+    flex-direction: column;
+}
+.eleright{
+    flex:1;
+    border: 1px solid purple;
+    text-align: center;
+}
